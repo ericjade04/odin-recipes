@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* this is the style for index.html */
+body {
+  color: black;
+  /* background-color: rgb(17, 24, 39); */
+}
+.index-header {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.recipe-container {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.recipe-container a:hover {
+  color: orange;
+}
+.recipe-container a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.recipe-container li {
+  list-style-type: none;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.recipe-container li p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.recipe-container li img {
+  border-radius: 5px;
+  height: 80%;
+  width: 100%;
+}
