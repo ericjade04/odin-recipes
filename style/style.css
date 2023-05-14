@@ -1,47 +1,87 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* this is the style for index.html */
 body {
-  color: black;
-  /* background-color: rgb(17, 24, 39); */
+  background-color: rgb(30, 30, 30);
+  color: white;
 }
+
 .index-header {
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-.recipe-container {
-  margin: 1rem auto;
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-}
-.recipe-container a:hover {
-  color: orange;
-}
-.recipe-container a {
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
-}
-
-.recipe-container li {
-  list-style-type: none;
-  margin-left: 1rem;
-  width: 100%;
-}
-
-.recipe-container li p {
   margin-top: 1rem;
   text-align: center;
 }
 
-.recipe-container li img {
-  border-radius: 5px;
-  height: 80%;
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.recipe-container li {
+  background-color: rgb(76, 76, 76);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.recipe-container img {
+  border-radius: 10px;
+  object-fit: cover;
   width: 100%;
+  height: 100%;
+}
+.recipe-container li div {
+  height: 20rem;
+  width: 20rem;
+}
+section {
+  margin-right: 1rem;
+  width: 80%;
+  padding: 1rem;
+}
+
+section p {
+  margin-top: 1rem;
+}
+
+section button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+section button:hover {
+  background-color: rgb(112, 116, 116);
+}
+
+section a {
+  text-decoration: none; 
+  color: inherit;
+  cursor: pointer; 
+}
+
+footer {
+  color: rgb(163, 165, 166);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-img-container {
+  height: 20rem;
+  width: 20rem;
+}
+
+.recipe-img-container img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h6 {
+  text-align: center;
 }
